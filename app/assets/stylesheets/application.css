@@ -47,9 +47,9 @@
 .cbp-ig-grid li {
 	width: 25%;
 	float: left;
-	height: 420px;
+	height: 440px;
 	text-align: center;
-	border-top: 1px solid #ddd;
+	border-top: 0px solid #ddd;
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -58,7 +58,7 @@
 }
 
 .cbp-ig-grid li:nth-child(-n+3) {
-	box-shadow: 1px 0 0 #ddd;
+	box-shadow: 0px 0 0 #ddd;
 }
 
 /* anchor style */
@@ -196,7 +196,7 @@
 
 	/* reset the grid lines */
 	.cbp-ig-grid li:nth-child(-n+3){
-		border-top: 1px solid #ddd;
+		border-top: 0px solid #ddd;
 	}
 
 	.cbp-ig-grid li:nth-child(3n-1),
@@ -209,7 +209,7 @@
 	}
 
 	.cbp-ig-grid li:nth-child(2n-1) {
-		box-shadow: 1px 0 0 #ddd;
+		box-shadow: 0px 0 0 #ddd;
 	}
 }
 
@@ -219,7 +219,7 @@
 	}
 
 	.cbp-ig-grid li:nth-child(-n+2){
-		border-top: 1px solid #ddd;
+		border-top: 0px solid #ddd;
 	}
 
 	.cbp-ig-grid li:nth-child(2n-1) {
