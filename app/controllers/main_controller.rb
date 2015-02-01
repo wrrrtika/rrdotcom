@@ -29,6 +29,7 @@ class MainController < ApplicationController
 	 end
 
 	 def music
+	 end
 
 
 	 def awardsandpress
