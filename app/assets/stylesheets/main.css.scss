@@ -53,19 +53,19 @@
 .cbp-ig-grid li > a {
 	display: block;
 	height: 100%;
-	color: #47a3da;
-	-webkit-transition: background 0.2s;
-	-moz-transition: background 0.2s;
-	transition: background 0.2s;
+	color: #6600CC;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5;
+	transition: background 0.5s;
 }
 
 /* the icon with pseudo class for icon font */
 .cbp-ig-icon {
 	padding: 30px 0 0 0;
 	display: block;
-	-webkit-transition: -webkit-transform 0.2s;
-	transition: -moz-transform 0.2s;
-	transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
 }
 
 .cbp-ig-icon:before {
@@ -102,9 +102,9 @@
 	padding: 20px 0 0 0;
 	font-size: 2em;
 	position: relative;
-	-webkit-transition: -webkit-transform 0.2s;
-	-moz-transition: -moz-transform 0.2s;
-	transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
 }
 
 .cbp-ig-grid .cbp-ig-title:before {
@@ -116,9 +116,9 @@
 	top: 0px;
 	left: 50%;
 	margin: -10px 0 0 -80px;
-	-webkit-transition: margin-top 0.2s; /* top or translate does not seem to work in Firefox */
-	-moz-transition: margin-top 0.2s;
-	transition: margin-top 0.2s;
+	-webkit-transition: margin-top 0.5s; /* top or translate does not seem to work in Firefox */
+	-moz-transition: margin-top 0.5s;
+	transition: margin-top 0.5s;
 }
 
 .cbp-ig-grid .cbp-ig-category {
@@ -132,9 +132,9 @@
 	-ms-transform: -ms-translateY(10px);
 	transform: translateY(10px);
 	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
-	-webkit-transition: transform 0.3s, opacity 0.2s;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.5s;
+	-webkit-transition: transform 0.3s, opacity 0.5s;
 }
 
 .cbp-ig-grid li:hover .cbp-ig-category,
@@ -265,6 +265,7 @@ body {
   left: 0px;
   padding-left: 10px;
   text-align: center;
+  font-color: #ffffff;
   background-color: #0a0a0a;
   opacity: .9;
   z-index: 99;
@@ -272,7 +273,7 @@ body {
 
 
 .nav {
-  word-spacing: 20px;
+  word-spacing: 50px;
 }
 
 a {
@@ -291,7 +292,10 @@ img {
 p {
 	color: #ffffff;
 	width: 75%;
-	padding-left: 170px;
+	padding-left: 10px;
+	text-align: center;
+	position: fixed;
+	
 
 }
 
