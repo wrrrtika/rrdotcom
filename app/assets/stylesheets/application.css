@@ -256,8 +256,9 @@ body {
 }
 
 .container {
-	padding-top: 100px;
+	padding-top: 55px;
 	padding-bottom: 195px;
+	text-align: center;
 }
 
 
@@ -282,6 +283,7 @@ body {
 	padding-top: 15px;
 	width: 100%;
 	color: #CACACA;
+	text-align: center;
 	vertical-align: bottom;
 
 }
@@ -334,11 +336,14 @@ h1 {
 }
 
 .wrap{
-  margin: 0 auto;
   padding: 2%;
-  vertical-align: top;
   margin-top: px;
   width: 20em;
+  position: fixed;
+  top: -15px;
+  right: -190px;
+
+
 }
 
 .wrap div{
@@ -346,14 +351,12 @@ h1 {
 }
 
 .icon{
-  background-color:#222;
+  background-color:#000;
   background-repeat:no-repeat;
   background-position:center center;
-  height: 3em;
-  width: 3em;
-  position: relative;
-  top: -75px;
-  right: -1250px;
+  height: 2.5em;
+  width: 2.5em;
+
   -webkit-transition: background-color 0.4s ease;
   -moz-transition: background-color 0.4s ease;
   -ms-transition: background-color 0.4s ease;
