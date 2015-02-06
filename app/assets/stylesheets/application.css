@@ -348,7 +348,7 @@ h1:hover {
   width: 20em;
   position: fixed;
   top: -15px;
-  right: -160px;
+  right: -130px;
 
 
 }
@@ -432,4 +432,14 @@ h1:hover {
 
 .soundcloud:hover{
 	background-color: #FF9900;
+}
+
+.etsy {
+	background-image:url("http://d1p6b1fqdxr5o.cloudfront.net/webimages/logos/platforms/etsy_small.png");
+	background-size: 100%;
+
+}
+
+.etsy:hover {
+background-color: #CC7A00;
 }
