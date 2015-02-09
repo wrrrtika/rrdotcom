@@ -36,7 +36,8 @@
 .cbp-ig-grid:before, 
 .cbp-ig-grid:after { 
 	content: " "; 
-	display: table; 
+	display: table;
+
 }
 
 .cbp-ig-grid:after { 
@@ -50,6 +51,8 @@
 	height: 440px;
 	text-align: center;
 	border-top: 0px solid #ddd;
+	background-color: #000000;
+	opacity: 0.93;
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -257,6 +260,14 @@ body {
 }
 
 .container {
+	background-image: url("/assets/randombookshelf.jpg");
+	padding-top: 55px;
+	padding-bottom: 195px;
+	text-align: center;
+}
+
+.pubcontainer {
+	background-image: url("");
 	padding-top: 55px;
 	padding-bottom: 195px;
 	text-align: center;
@@ -274,7 +285,7 @@ body {
   padding-left: 0px;
   text-align: center;
   background-color: #0a0a0a;
-  opacity: .9;
+  opacity: 0.9;
   z-index: 99;
  
 }
@@ -282,6 +293,7 @@ body {
 .news {
 	position: relative;
 	padding-top: 55px;
+	padding-bottom: 200px;
 	width: 100%;
 	color: #CACACA;
 	text-align: center;
@@ -311,7 +323,7 @@ body {
 	left: 0px;
 	padding-left: 5px;
 	width: 100%;
-	height: 60px;
+	height: 63px;
 	background-color: #0a0a0a;
     opacity: .9;
     z-index: 99;
@@ -332,9 +344,11 @@ img {
   width: 230px;
 }
 
-h1 {
+h1, h2, h3, li {
   color: #CACACA;
 }
+
+
 
 h1:hover {
 	color: #6600CC;
@@ -342,13 +356,22 @@ h1:hover {
 
 }
 
+ul {
+    list-style-position: inside;
+    margin: 0 0 3px 0;
+
+}
+
+/*-- magic starts --*/	
+
+
 .wrap{
   padding: 2%;
   margin-top: px;
   width: 20em;
   position: fixed;
-  top: -15px;
-  right: -130px;
+  top: -20px;
+  right: -135px;
 
 
 }

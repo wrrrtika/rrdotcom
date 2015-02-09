@@ -10,7 +10,7 @@ class MainController < ApplicationController
 	 def press
 	 end
 
-	 def art
+	 def artwork
 	 end
 
 	 def finishedworks

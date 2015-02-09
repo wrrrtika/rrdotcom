@@ -58,6 +58,12 @@ Rails.application.routes.draw do
 
       get "/publications" => "main#publications"
 
+      get "/artwork" => "main#artwork"
+
+      get "/music" => "main#music"
+
+      get "/performance" => "main#performance"
+
       resources :all
 
 
