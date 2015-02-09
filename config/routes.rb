@@ -56,7 +56,7 @@ Rails.application.routes.draw do
 
       root 'main#application'
 
-      get "publications" => "publications"
+      get "/publications" => "main#publications"
 
       resources :all
 
