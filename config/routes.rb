@@ -60,7 +60,7 @@ Rails.application.routes.draw do
 
       get "/artwork" => "main#artwork"
 
-      get "/music" => "main#music"
+      get "/audio" => "main#audio"
 
       get "/performance" => "main#performance"
 

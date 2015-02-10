@@ -28,7 +28,7 @@ class MainController < ApplicationController
 	 def recordings
 	 end
 
-	 def music
+	 def audio
 	 end
 
 
