@@ -660,9 +660,13 @@ h1, h2, h3, li,  {
   color: #FFFFFF; 
 }
 
+h2 {
+	text-align: center;
+}
+
 .title {
 	position: absolute;
-	left: 180px;
+	left: 170px;
 	margin-bottom: 50px;
 	color: #000000;
 	text-align: center;	
@@ -802,8 +806,10 @@ background-color: #CC7A00;
 
 #gallery {
 	vertical-align: center;
-	width:70%;
-	height:70%;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	height:90%;
 	margin:50px auto;
 	}
 
@@ -813,8 +819,10 @@ background-color: #CC7A00;
 
 #gallery .item {
 	width: 200px; height: 200px; overflow: hidden;
-	float: left;
-	border: 5px solid #333;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #333;
 	margin: 5px;
 	}
 
@@ -866,7 +874,7 @@ background-color: #CC7A00;
 .lightbox .title {
 	margin-left: auto;
 	margin-right: auto;
-	padding:0 0 20px 0px;
+	padding:10px 10px 30px 10px;
 	border-bottom:0px #ccc solid;
 	font-size:22px;
 	text-align: center;
@@ -916,16 +924,16 @@ background-color: #CC7A00;
 	float:left;
 	}
 
-.next, .close, .whatever {
+.next{
 	float:right;
 	}
 
-
-.exit {
-	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:22px;
-	color:#858585;
+.close {
+	float:right;
+	padding-right: 50px;
 }
+
+
 	
 	.clear {
 		display:block;
