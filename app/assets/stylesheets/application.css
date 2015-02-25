@@ -488,7 +488,7 @@ body {
 	background-size: 100%;
 	position: relative;
 	padding-top: 55px;
-	padding-bottom: px;
+	padding-bottom: 5px;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -499,7 +499,7 @@ body {
 	background-size: 100%;
 	position: relative;
 	padding-top: 55px;
-	padding-bottom: px;
+	padding-bottom: 5px;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -561,8 +561,8 @@ body {
 	width: 95%;
 	background-color: #0a0a0a;
 	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 505px;
+	padding-right: 55px;
+	padding-bottom: 619px;
 	opacity: 0.90;
 	text-align: center;
 	vertical-align: bottom;
@@ -576,7 +576,7 @@ body {
 	background-color: #0a0a0a;
 	padding-top: 5px;
 	padding-right: 5px;
-	padding-bottom: 505px;
+	padding-bottom: 605px;
 	opacity: 0.90;
 	text-align: center;
 	vertical-align: bottom;
@@ -657,11 +657,13 @@ img {
 }
 
 h1, h2, h3, li,  {
-  color: #FFFFFF;
-  text-align: 
+  color: #FFFFFF; 
 }
 
-p {
+.title {
+	position: absolute;
+	left: 180px;
+	margin-bottom: 50px;
 	color: #000000;
 	text-align: center;	
 }
@@ -680,7 +682,7 @@ h1:hover {
 
 ul {
     list-style-position: inside;
-    margin: 0 0 3px 0;
+    margin: 0 0 5px 0;
 
 }
 
@@ -823,6 +825,7 @@ background-color: #CC7A00;
 
 #gallery .item a img {
 	height: 100%; 
+
 	align-self: center;
 	}
 
@@ -839,6 +842,7 @@ background-color: #CC7A00;
 	top: 0;
 	left: 0;
 	color:#333333;
+	text-align: center;
 	}
 
 .lightbox:target {
@@ -856,16 +860,20 @@ background-color: #CC7A00;
 	padding:10px 20px 10px 20px;
 	background-color:#FFF;
 	box-shadow: 0px 1px 26px -3px #777777; 
+	text-align: center;
 	}
 
 .lightbox .title {
-	margin:0;
-	padding:0 0 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0 0 20px 0px;
 	border-bottom:0px #ccc solid;
 	font-size:22px;
+	text-align: center;
 	}
 
 .lightbox .content {
+	padding-top: 55px;
 	display:block;
 	position:relative;
 	}
@@ -876,9 +884,11 @@ background-color: #CC7A00;
 	bottom:0;
 	position:relative;
 	padding:10px;
-	margin:0 0 4px 0;
+	margin:0 0 10px 0;
 	background:rgba(0,0,0,0.8);
-
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	color:#fff;
 	font-size:17px;
 	opacity:0;
@@ -886,6 +896,9 @@ background-color: #CC7A00;
 	}	
 	
 .lightbox .content:hover .desc	{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	opacity:1;
 }
 
@@ -903,9 +916,16 @@ background-color: #CC7A00;
 	float:left;
 	}
 
-.next, .close {
+.next, .close, .whatever {
 	float:right;
 	}
+
+
+.exit {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:22px;
+	color:#858585;
+}
 	
 	.clear {
 		display:block;
