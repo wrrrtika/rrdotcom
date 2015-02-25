@@ -666,7 +666,7 @@ h2 {
 
 .title {
 	position: absolute;
-	left: 170px;
+	left: 165px;
 	margin-bottom: 50px;
 	color: #000000;
 	text-align: center;	
@@ -916,7 +916,7 @@ background-color: #CC7A00;
 	display:block;
 	text-decoration:none;
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:22px;
+	font-size:20px;
 	color:#858585;
 	}
 
@@ -933,6 +933,12 @@ background-color: #CC7A00;
 	padding-right: 50px;
 }
 
+.bigger {
+  display: inline-block;
+  height: 420px;
+  width: 410px;
+
+}
 
 	
 	.clear {
