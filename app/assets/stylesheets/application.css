@@ -482,6 +482,17 @@ body {
 	color: #FFFFFF;
 }
 
+.aboutcontainer {
+	background-image: url("/assets/audio2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	padding-top: 55px;
+	padding-bottom: px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
 
 
 
@@ -519,17 +530,33 @@ body {
 }
 
 .artmain {
-	margin-left: auto;
+	
 	margin-top: auto;
     margin-right: auto;
 	width: 95%;
 	background-color: #0a0a0a;
 	padding-top: 5px;
+	padding-right: 5px;
 	padding-bottom: 505px;
 	opacity: 0.90;
 	text-align: center;
 	vertical-align: bottom;
 }
+
+.aboutmain {
+	
+	margin-top: auto;
+    margin-right: auto;
+	width: 95%;
+	background-color: #0a0a0a;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 505px;
+	opacity: 0.90;
+	text-align: center;
+	vertical-align: bottom;
+}
+
 
 
 
@@ -568,6 +595,7 @@ body {
   height: 10px;
   left: 0px;
   padding-left: 0px;
+  margin-right: auto;
   text-align: center;
   background-color: #0a0a0a;
   opacity: .9;

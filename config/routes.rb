@@ -64,6 +64,12 @@ Rails.application.routes.draw do
 
       get "/performance" => "main#performance"
 
+      get "/prints" => "main#prints"
+
+      get "/home" => "main#application"
+
+      get "/about" => "main#about"
+
       resources :all
 
 
