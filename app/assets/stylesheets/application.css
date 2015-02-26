@@ -48,7 +48,7 @@
 .cbp-ig-grid li {
 	width: 25%;
 	float: left;
-	height: 440px;
+	height: 470px;
 	text-align: center;
 	border-top: 0px solid #ddd;
 	background-color: #000000;
@@ -60,9 +60,9 @@
 	float: left;
 	height: 440px;
 	text-align: center;
-	border-top: 0px solid #ddd;
+	border-top: px solid #ddd;
 	background-color: #000000;
-	opacity: 0.93;
+	opacity: 0.95;
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -103,7 +103,7 @@
 }
 /* the icon with pseudo class for icon font */
 .cbp-ig-icon {
-	padding: 30px 0 0 0;
+	padding: 30px 0 0 30px;
 	display: block;
 	-webkit-transition: -webkit-transform 0.4s;
 	transition: -moz-transform 0.4s;
@@ -434,7 +434,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 55px;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 	text-align: center;
 }
 
@@ -522,7 +522,7 @@ body {
 	width: 90%;
 	background-color: #0a0a0a;
 	padding-top: 5px;
-	padding-bottom: 475px;
+	padding-bottom: 505px;
 	opacity: 0.95;
 	text-align: center;
 	vertical-align: bottom;
@@ -608,7 +608,7 @@ body {
 
 .news {
 	position: relative;
-	height: 250px;
+	height: 270px;
 	width: 100%;
 	color: #CACACA;
 	text-align: center;
@@ -648,6 +648,7 @@ body {
 a {
   color: #ffffff;
   text-decoration: underline;
+  padding-top: 50px;
 }
 
 a:hover {
@@ -659,8 +660,9 @@ img {
   background-color: #000000;
   margin-left: auto;
   margin-right: auto;
-  height: 230px;
-  width: 200px;
+  vertical-align: center;
+  height: 240px;
+  width: 190px;
 }
 
 h1, h2, h3, li,  {
