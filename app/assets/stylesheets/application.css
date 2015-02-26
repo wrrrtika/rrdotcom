@@ -499,7 +499,7 @@ body {
 	background-size: 100%;
 	position: relative;
 	padding-top: 55px;
-	padding-bottom: 5px;
+	padding-bottom: px;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -576,7 +576,7 @@ body {
 	background-color: #0a0a0a;
 	padding-top: 5px;
 	padding-right: 5px;
-	padding-bottom: 605px;
+	padding-bottom: 105px;
 	opacity: 0.90;
 	text-align: center;
 	vertical-align: bottom;
@@ -651,9 +651,11 @@ a:hover {
 }
 
 img {
-  display: inline-block;
-  height: 260px;
-  width: 230px;
+  left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 230px;
+  width: 200px;
 }
 
 h1, h2, h3, li,  {
@@ -820,8 +822,6 @@ background-color: #CC7A00;
 #gallery .item {
 	width: 200px; height: 200px; overflow: hidden;
 	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
 	border: 2px solid #333;
 	margin: 5px;
 	}
@@ -829,11 +829,15 @@ background-color: #CC7A00;
 
 #gallery .item a { 
     overflow: hidden;
+    align-self: center;
 	}
 
 #gallery .item a img {
 	height: 100%; 
-
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: center;
 	align-self: center;
 	}
 
@@ -893,7 +897,7 @@ background-color: #CC7A00;
 	position:relative;
 	padding:10px;
 	margin:0 0 10px 0;
-	background:rgba(0,0,0,0.8);
+	background:rgba(0,0,0, 1);
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -907,7 +911,7 @@ background-color: #CC7A00;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	opacity:1;
+	opacity: 1;
 }
 
 .lightbox .next,
@@ -936,6 +940,13 @@ background-color: #CC7A00;
 .bigger {
   display: inline-block;
   height: 440px;
+  width: 410px;
+
+}
+
+.ininko {
+  display: inline-block;
+  height: 550px;
   width: 410px;
 
 }
