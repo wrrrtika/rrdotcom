@@ -700,8 +700,8 @@ ul {
   margin-top: px;
   width: 20em;
   position: fixed;
-  top: -20px;
-  right: -135px;
+  top: -30px;
+  right: -100px;
 
 
 }
@@ -849,7 +849,7 @@ background-color: #CC7A00;
 	position: absolute;
 	z-index: 9999;
 	padding-top: 100px;
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	top: 0;
 	left: 0;
