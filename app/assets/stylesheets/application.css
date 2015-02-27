@@ -472,7 +472,7 @@ body {
 }
 
 .artpagecontainer {
-	background-image: url("/assets/audio2.jpg");
+	background-image: url("/assets/ART BG A.JPG");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: relative;
@@ -498,12 +498,23 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: relative;
-	padding-top: 55px;
+	padding-top: 30px;
 	padding-bottom: px;
 	float: left;
 	color: #000000;
 }
 
+.availablecontainer {
+	background-image: url("/assets/skelliesBG.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: px;
+	float: left;
+	opacity: .9;
+	color: #000000;
+}
 
 
 
@@ -548,11 +559,12 @@ body {
 	
 	margin-top: auto;
     margin-right: auto;
-	width: 95%;
+    height: 100%;
+	width: 100%;
 	background-color: #0a0a0a;
 	padding-top: 5px;
 	padding-right: 5px;
-	padding-bottom: 505px;
+	padding-bottom: 500px;
 	opacity: 0.90;
 	text-align: center;
 	vertical-align: bottom;
@@ -581,7 +593,7 @@ body {
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-bottom: 105px;
-	opacity: 0.75;
+	opacity: 0.80;
 	text-align: center;
 	vertical-align: bottom;
 }
@@ -608,7 +620,7 @@ body {
 
 .news {
 	position: relative;
-	height: 270px;
+	height: 450px;
 	width: 100%;
 	color: #CACACA;
 	text-align: center;
@@ -656,13 +668,11 @@ a:hover {
 }
 
 img {
-  left: 100px;
+   
   background-color: #000000;
-  margin-left: auto;
-  margin-right: auto;
   vertical-align: center;
-  height: 240px;
-  width: 190px;
+  height: 250px;
+  width: 200px;
 }
 
 h1, h2, h3, li,  {
@@ -704,7 +714,7 @@ ul {
 
 .wrap{
   padding: 2%;
-  margin-top: px;
+  margin-top: 10px;
   width: 20em;
   position: fixed;
   top: -30px;
@@ -889,6 +899,8 @@ background-color: #CC7A00;
   	width: -moz-min-content;
   	width: min-content;
 	min-width:500px;
+	margin-left: auto;
+	margin-right: auto;
  	margin: 2% auto;
 	padding:10px 20px 10px 20px;
 	background-color:#000;
@@ -964,7 +976,7 @@ background-color: #CC7A00;
 
 .bigger {
   background-color: #000000
-    display: inline-block;
+  display: inline-block;
   height: 450px;
   width: 420px;
 
