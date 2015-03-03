@@ -80,7 +80,7 @@ Rails.application.routes.draw do
 
       get "#" => "main#prints"
 
-      get "/databats" =. "main#databats"
+      get "/databats" => "main#databats"
 
       resources :all
 
