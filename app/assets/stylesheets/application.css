@@ -516,6 +516,18 @@ body {
 	color: #000000;
 }
 
+.batscontainer {
+	background-image: url("/assets/FINAL - Martian Sitcom ALT.JPG");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: px;
+	float: left;
+	color: #000000;
+
+}
+
 
 
 
@@ -597,6 +609,21 @@ body {
 	text-align: center;
 	vertical-align: bottom;
 }
+
+.batsmain {
+	
+	margin-top: auto;
+    margin-right: auto;
+	width: 100%;
+	background-color: #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 105px;
+	opacity: 0.80;
+	text-align: center;
+	vertical-align: bottom;
+}
+
 
 
 
