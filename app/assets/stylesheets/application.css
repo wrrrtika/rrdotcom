@@ -1025,10 +1025,31 @@ background-color: #CC7A00;
 
 }
 
-.filthy {
+.filthy, .sidewalk {
   display: inline-block;
   height: 650px;
   width: 420px;
+
+}
+
+.morning, .thursday, .sunset {
+  display: inline-block;
+  height: 420px;
+  width: 650px;
+
+}
+
+.deep {
+	display: inline-block;
+	height: 420px;
+	width: 500px;
+
+}
+
+.sitcom {
+	display: inline-block;
+	height: 500px;
+	width: 700px;
 
 }
 
